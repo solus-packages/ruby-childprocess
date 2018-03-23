@@ -1,0 +1,16 @@
+name       : ruby-childprocess
+version    : 0.6.3
+release    : 1
+source     :
+    - https://rubygems.org/downloads/childprocess-0.6.3.gem : 7b319509275e326d6b673c2f82ad21db7c3598fe854fe16bffa9ffc6f4206edc
+license    : MIT
+component  : programming.ruby
+summary    : RubyGem - childprocess
+description: |
+    This gem aims at being a simple and reliable solution for controlling external programs running in the background on any Ruby / OS combination.This gem aims at being a simple and reliable solution for controlling external programs running in the background on any Ruby / OS combination.This gem aims at being a simple and reliable solution for controlling external programs running in the background on any Ruby / OS combination.
+builddeps  :
+    - pkgconfig(ruby-2.3)
+rundeps    :
+    - ruby-ffi
+install    : |
+    %gem_install
