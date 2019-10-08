@@ -1,6 +1,6 @@
 name       : ruby-childprocess
 version    : 0.6.3
-release    : 2
+release    : 3
 source     :
     - https://rubygems.org/downloads/childprocess-0.6.3.gem : 7b319509275e326d6b673c2f82ad21db7c3598fe854fe16bffa9ffc6f4206edc
 license    : MIT
