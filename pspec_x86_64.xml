@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-childprocess</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ruby</PartOf>
@@ -19,66 +19,64 @@
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/.document</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/.gitignore</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/.rspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/.travis.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/CHANGELOG.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/Gemfile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/LICENSE</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/appveyor.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/childprocess.gemspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/abstract_io.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/abstract_process.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/errors.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/jruby.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/jruby/io.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/jruby/process.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/jruby/pump.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/tools/generator.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/unix.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/unix/fork_exec_process.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/unix/io.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/unix/lib.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/unix/platform/i386-linux.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/unix/platform/i386-solaris.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/unix/platform/x86_64-linux.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/unix/platform/x86_64-macosx.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/unix/posix_spawn_process.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/unix/process.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/windows.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/windows/handle.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/windows/io.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/windows/lib.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/windows/process.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/windows/process_builder.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/lib/childprocess/windows/structs.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/spec/abstract_io_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/spec/childprocess_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/spec/io_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/spec/jruby_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/spec/pid_behavior.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/spec/platform_detection_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/spec/spec_helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/spec/unix_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/childprocess-0.6.3/spec/windows_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/childprocess-0.6.3.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/.document</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/.rspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/appveyor.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/childprocess.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/abstract_io.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/abstract_process.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/errors.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/jruby.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/jruby/io.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/jruby/process.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/jruby/pump.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/tools/generator.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/unix.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/unix/fork_exec_process.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/unix/io.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/unix/lib.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/unix/platform/i386-linux.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/unix/platform/i386-solaris.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/unix/platform/x86_64-linux.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/unix/platform/x86_64-macosx.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/unix/posix_spawn_process.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/unix/process.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/windows.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/windows/handle.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/windows/io.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/windows/lib.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/windows/process.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/windows/process_builder.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/lib/childprocess/windows/structs.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/spec/abstract_io_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/spec/childprocess_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/spec/get_env.ps1</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/spec/io_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/spec/jruby_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/spec/pid_behavior.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/spec/platform_detection_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/spec/spec_helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/spec/unix_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/childprocess-3.0.0/spec/windows_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/childprocess-3.0.0.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-10-07</Date>
-            <Version>0.6.3</Version>
+        <Update release="4">
+            <Date>2020-07-01</Date>
+            <Version>3.0.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>
